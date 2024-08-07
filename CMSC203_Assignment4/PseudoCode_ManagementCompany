@@ -1,0 +1,112 @@
+//Start of class
+//define constants and variables
+public class ManagementCompany {
+	//constructor
+	public ManagementCompany() {
+	}
+	//constructor
+	public ManagementCompany(String name, String taxID, double mgmFeePer) {
+	}
+	//constructor
+	public ManagementCompany(String name, String taxID, double mgmFeePer, int x, int y, int width, int depth) {
+	}
+	//constructor
+	public ManagementCompany(ManagementCompany otherCompany) {
+	}
+	public void setName(String name) {
+		//Sets this.name equal to name
+	}
+	public void setTaxID(String taxID) {
+		//Sets this.TaxID equal to TaxID
+	}
+
+	public void setMgmFee(double mgmFeePer) {
+		//Sets this.mgmFeePer equal to mgmFeePer
+	}
+	
+	public void setPlot(Plot plot) {
+		//Sets this.plot to a new Plot(plot)
+	}
+
+	public String getName() {
+		//returns back name
+	}
+
+	public String getTaxID() {
+		//returns TaxID
+	}
+	
+	public double getMgmFee() {
+		//returns mgmFeePer
+	}
+
+	public Plot getPlot() {
+		//returns new Plot(plot)
+	}
+	
+	public int addProperty(Property property) {
+		//Sets a new Property variable (house) equal to a new Property
+		//Sets int statis equal to 0
+		//For int being between 0 and MAX_PROPERTY, increment i till its not less tha MAX_PROPERTY) {
+			//Each property in the array is set equal to property
+				//If the property is null, Set status equal to -2
+				//Else if the plot for the property is not encompassed by the management company plot, Set status equal to -3
+				//Else if the array is full, set status equal to -1
+				//Else if house is not null, set one of the properties to equal the house and set the status equal to the value of that property(i)
+			//return status
+	}
+	
+	public int addProperty(String propertyName, String city, double rent, String ownerName) {
+		//Sets a new Property variable (house) equal to a new Property
+			//Sets int statis equal to 0
+			//For int being between 0 and MAX_PROPERTY, increment i till its not less tha MAX_PROPERTY) {
+				//Each property in the array is set equal to property
+					//If the property is null, Set status equal to -2
+					//Else if the plot for the property is not encompassed by the management company plot, Set status equal to -3
+					//Else if the plot for the property overlaps any other property’s plot, set status equal to -4
+					//Else if the array is full, set status equal to -1
+					//Else if house is not null, set one of the properties to equal the house and set the status equal to the value of that property(i)
+			//return status
+	}
+	
+	public Property propertyList(Property property) {
+		//For i being 0 to as long as i is less than properties.length, increment i
+		//property is set to equal one of the properties
+		//Returns a new property
+	}
+	
+	private String displayPropertyAtIndex(int i) {
+		//Set str to the string version of properties
+	}
+	
+	public int getMAX_PROPERTY() {
+		//return max_property
+	}
+	
+	public double maxRentProp() {
+		//Sets a new property variable to a new property()
+		//Set int highestIndex equal to 0
+		//For i being 0 to as long as i is less than properties.length, increment i
+			//Sets a house to one of the properties
+			//If a specific property has a rent amount higher than the first property, set highestIndex to that property
+		//return highestIndex
+	}
+	
+	public double totalRent() {
+		//Set total equal to 0
+		//Sets a new property variable to a new property()
+		//For i being 0 to as long as i is less than properties.length, increment i
+			//Sets a house to one of the properties
+			//Total is equal to the amount of all the properties added up
+		//return total
+	}
+	
+	public String toString() {
+		//Sets a new property variable to a new property()
+		//Sets str equal to "" (empty strand"
+		//For i being 0 to as long as i is less than properties.length, increment i
+			//Sets a house to one of the properties
+			//Str equals the string version of all properties
+		//return str
+	}	
+	

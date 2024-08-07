@@ -1,0 +1,66 @@
+//Start of class
+public class Property {
+//define constants and variables
+
+	//constructor
+	public Property() {
+	}
+	
+	//constructor
+	public Property(String propertyName, String city, double rentAmount, String owner) {
+	}
+	
+	//constructor
+	public Property(String propertyName, String city, double rentAmount, String owner, int x, int y, int width, int depth) {
+	}
+	
+	//constructor
+	public Property(Property p) {
+	}
+	
+	public String getCity() {
+		//Returns city
+	}
+
+	public String getOwner() {
+		//Returns owner
+	}
+
+	public String getPropertyName() {
+		//Returns propertyName
+	}
+
+	
+	public double getRentAmount() {
+		//Returns rentAmount
+	}
+
+	public void setPlot(int x, int y, int width, int depth) {
+		//Sets this.plot equal to a new Plot(x, y, width, depth)
+	}
+
+	public void setCity(String city) {
+		//Sets this.city equal to city
+	}
+
+	public void setOwner(String owner) {
+		//Sets this.owner equal to owner
+	}
+
+	public void setPropertyName(String propertyName) {
+		//Sets this.propertyName equal to propertyName
+	}
+
+	public void setRentAmount(double rentAmount) {
+		//Sets this.rentAmount equal to rentAmount
+	}
+
+	public Plot getPlot() {
+		//Returns plot
+	}
+
+	public String toString() {
+		//Sets str equal to "Property Name: " + propertyName + "\n" + "Located in: " + city + "\n" + "Belonging to: " + owner + "\n" + "Rent Amount: " + rentAmount + " ";
+		//Returns str
+	}
+}

@@ -1,0 +1,62 @@
+//Start of class
+public class Plot {
+
+	//constructor
+	public Plot() {
+	}
+	
+	//constructor
+	public Plot() {
+	}
+	
+	//constructor
+	public Plot() {
+	}
+	
+	public void setX(int x) {
+		//Set this.x equal to x
+	}
+	
+	public void setY(int y) {
+		//Set this.y equal to y
+	}
+	
+	public void setWidth(int width) {
+		//Set this.width equal to width
+	}
+	
+	public void setDepth(int depth) {
+		//Set this.depth equal to depth
+	}
+	
+	public int getX() {
+		//returns x
+	}
+
+	public int getY() {
+		//returns y;
+	}
+
+	public int getWidth() {
+		//returns width
+	}
+
+	public int getDepth() {
+		//return depth
+	}
+	
+	public boolean overlaps(Plot plot) {
+		//Set overlaps to true;
+		//If plot.getX() greather than or equal to getX() and plot.getX() plus plot.getWidth() is greater than or equal to getX() plus getWidth() and plot.getX() plus plot.getDepth() is greater than or equal to getX() plus getDepth() and plot.getX() plus plot.getDepth() plus plot.getWidth() greater than or equal to getX() plus getDepth() plus getWidth() and plot.getX() plus plot.getDepth() plus plot.getWidth() plus plot.getDepth() greater than or equal to getX() plus getDepth() plus getWidth() plus getDepth() and plot.getX() plus plot.getDepth() greater than or equal to getX() plus getDepth() and plot.getX() greater than getX() and plot.getX() plus plot.getWidth() greater than getWidth() plus getX() and plot.getY() greater than getX() and plot.getY() greater than getY() plus getWidth()) {
+			//set overlaps to false
+		//return overlaps
+	}
+	
+	public boolean overlaps(Plot plot) {
+		//Set encompass to true;
+		//If plot.getX() greather than or equal to getX() and plot.getX() plus plot.getWidth() is greater than or equal to getX() plus getWidth() and plot.getX() plus plot.getDepth() is greater than or equal to getX() plus getDepth() and plot.getX() plus plot.getDepth() plus plot.getWidth() greater than or equal to getX() plus getDepth() plus getWidth() and plot.getX() plus plot.getDepth() plus plot.getWidth() plus plot.getDepth() greater than or equal to getX() plus getDepth() plus getWidth() plus getDepth() and plot.getX() plus plot.getDepth() greater than or equal to getX() plus getDepth() and plot.getX() greater than getX() and plot.getX() plus plot.getWidth() greater than getWidth() plus getX() and plot.getY() greater than getX() and plot.getY() greater than getY() plus getWidth()) {
+			//Set encompass to false
+		//return encompass
+	}
+	
+	
