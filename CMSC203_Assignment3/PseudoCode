@@ -1,0 +1,75 @@
+//Start of class
+
+//Declaring constants
+
+public static boolean stringInBounds (String plainText) {
+//Set inBounds to true
+//For index from 0 to plainText.length(), and increment index; {
+	//If plainText.charAt(index) is not greater than or equal to LOWER_BOUND and If plainText.charAt(index) is not less than UPPER_BOUND {
+	//Set in bounds to false
+	}
+//return inBounds
+}
+//end method
+
+public static String encryptCaesar(String plainText, int key) {
+//Set encrypt equal to ""
+//If plainText is in between the LOWER_BOUND and UPPER_BOUND {
+	//For index from 0 to plainText.length(), and increment index; {
+	//Set ch equal to plainText.charAt(index);
+	//Set encrypt_ch equal to ch plus key
+	//While encrypt_ch is greater than UPPER_BOUND {
+		//Set RANGE to be subtracted and equal encrypt_ch
+	}
+	//Set encrypt_ch to be added and equal to encrypt
+	}
+}
+//return encrypt
+}
+//end method
+
+public static String encryptBellaso(String plainText, String bellasoStr) {
+//Set encrypt equal to ""
+//If plainText is in between the LOWER_BOUND and UPPER_BOUND {
+	//For index from 0 to plainText.length(), and increment index; {
+	//Set ch equal to plainText.charAt(index);
+	//set ch equal to ch + bellasoStr.charAt(index % bellasoStr.length()));
+	//While encrypt_ch is greater than UPPER_BOUND {
+		//Set RANGE to be subtracted and equal encrypt_ch
+	}
+	//Set encrypt_ch to be added and equal to encrypt
+	}
+}
+//return encrypt
+}
+//end method
+
+public static String decryptCaesar(String encryptedText, int key) {
+//Set deencrypt equal to ""
+	//For index from 0 to encryptedText.length(), and increment index; {
+	//Set ch equal to encryptedText.charAt(index);
+	//Set decrypt_ch equal to ch minus key
+	//While decrypt_ch is less than LOWER_BOUND {
+		//Set RANGE to be added and equal decrypt_ch
+	}
+	//Set decrypt_ch to be added and equal to decrypt
+	}
+}
+//return dencrypt
+}
+//end method
+
+public static String decryptBellaso(String encryptedText, String bellasoStr) {
+//Set dencrypt equal to ""
+//For index from 0 to encryptedText.length(), and increment index; {
+	//Set ch equal to encryptedText.charAt(index);
+	//set ch equal to ch minus bellasoStr.charAt(index % bellasoStr.length()));
+	//While dencrypt_ch is less than UPPER_BOUND {
+		//Set RANGE to be subtracted and equal dencrypt_ch
+	}
+	//Set dencrypt_ch to be added and equal to encrypt
+	}
+}
+//return dencrypt
+}
+//end method
